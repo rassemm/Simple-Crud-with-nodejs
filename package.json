@@ -1,0 +1,19 @@
+{
+  "name": "nodemysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "hmr": "nodemon app.js",
+    "nodemon": "npm run hmr",
+    "start": "node app.js"
+  },
+  "author": "Webtutorials.ME",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "twig": "^1.12.0"
+  }
+}
